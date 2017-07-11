@@ -1,0 +1,147 @@
+/* Global CSS style */
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+section, .content, .mission-cont, .location-info div {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Header group style */
+
+header {
+	display: flex;
+	height: 69px;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background: black;
+	border-bottom: 1px solid seashell;
+
+}
+header img {
+	padding-left: 10px;
+	height: 50px;
+	
+}
+nav {
+	display: inline-flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+}
+nav p {
+	padding: 0 10px;
+}
+a {
+	color: inherit;
+}
+
+/* Mission section style */
+
+.content {
+	margin-top: 69px;
+}
+
+.mission {
+	margin: 0 auto;
+	height: 700px;
+	width: 1200px;
+	background-image: url(background-images/img-mission-background.jpg);
+}
+.mission-cont {
+	justify-content: space-around;
+	align-content: center;
+	margin: auto 0;
+	background: black;
+	height: 100px;
+	line-height: 0;
+	
+}
+
+/* Featured section style */
+
+.featured {
+	margin-bottom: 50px;
+}
+.featured h2 {
+	padding-top: 30px;
+}
+.thumbnails {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+figure img {
+	height: 200px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+figure {
+	margin: 0 20px 20px 0;
+	padding: 0;
+}
+figure figcaption {
+	margin-top: 0;
+}
+.thumbnails figcaption {
+	margin-top: -5px;
+}
+
+/* Location section style */
+
+.locations {
+	height: 500px;
+	width: 1200px;
+	background-image: url(background-images/img-locations-background.jpg);
+	margin: 0 auto;
+}
+.location-info {
+	display: inline-flex;
+	justify-content: center;
+}
+.location-info div {
+	justify-content: space-around;
+	line-height: 0;
+	height: 300px;
+	width: 300px;
+	background: black;
+	opacity: 1;
+}
+.locations h2 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.location-info:nth-child(2) div {
+	margin: 0 40px;
+}
+
+/* Contact section style */
+
+.contact {
+	height: 200px;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+/* Footer style */
+
+footer {
+	text-align: left;
+	margin-left: 20px;
+}
